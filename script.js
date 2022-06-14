@@ -6,6 +6,7 @@ async function fetchApi() {
     email: document.getElementById("userName").value,
     password: document.getElementById("password").value,
   });
+
   if (
     /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
       document.getElementById("userName").value
@@ -19,6 +20,8 @@ async function fetchApi() {
       body: raw,
       redirect: "follow",
     };
+
+    location.href = "./product.html";
 
     data = fetch("https://reqres.in/api/login", requestOptions)
       .then((response) => response.text())
