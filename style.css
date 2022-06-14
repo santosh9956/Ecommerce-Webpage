@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-logo img {
+  width: 4rem;
+  cursor: pointer;
+}
+header ul {
+  cursor: pointer;
+}
+#basic-addon1 {
+  cursor: pointer;
+}
+.input-sections ion-icon {
+  cursor: pointer;
+}
+.feature-right {
+  cursor: pointer;
+}
+
+.input-sections {
+  width: 23rem;
+  /* border: 2px solid; */
+}
+.input-sections img {
+  width: 2rem;
+  background-color: rgb(227, 239, 227) !important;
+}
+
+.inp-color {
+  background-color: rgb(227, 239, 227) !important;
+}
+
+hr {
+  width: 15rem;
+}
+.down-container {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+}
+
+.left-sections {
+  cursor: pointer;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* border: 3px solid;  */
+}
+.feature-right select {
+  cursor: pointer;
+  height: fit-content;
+  background-color: inherit;
+  border: none;
+}
+
+.left-sections::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+.left-sections::-webkit-scrollbar-thumb {
+  background: rgb(219, 215, 215);
+  border-radius: 10px;
+}
+
+.shoes-img img {
+  width: 30rem;
+  height: 40vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#aa {
+  font-family: "Rubik", sans-serif;
+  background-image: url(https://www.hmablogs.com/wp-content/uploads/2021/09/background.jpg) !important;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-size: 1vw;
+  backdrop-filter: blur(5px);
+}
+
+.m-container {
+  height: 100vh;
+}
+
+.form {
+  height: 60vh;
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+h2 {
+  font-size: 3rem;
+  color: white;
+}
+.logo {
+  width: 3rem;
+  height: 4.5vh;
+}
+
+.log {
+  color: white;
+}
+
+.formGroup input {
+  border: none;
+  width: 20rem;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+}
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid rgb(91, 243, 131);
+  font-size: 17px;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+
+.btn2 {
+  padding: 10px;
+  width: 20rem;
+  border-radius: 5px;
+  background-color: blue;
+  border-style: none;
+  color: white;
+  font-weight: 600;
+}
+.btn2:hover {
+  background-color: rgba(10, 136, 43, 0.5);
+}
+.btn button:hover {
+  border-bottom: 2px solid rgb(91, 243, 131);
+}
+.hide {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.invalid {
+  font-size: 1.2rem;
+  color: red;
+}
+
+@media (max-width: 1200px) {
+  .form {
+    width: 30rem;
+  }
+  .hide {
+    padding: 1rem;
+  }
+  .btn2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .form {
+    width: 90%;
+  }
+  .hide {
+    padding: 1rem;
+  }
+  .btn2 {
+    font-size: 1.5rem;
+  }
+}
