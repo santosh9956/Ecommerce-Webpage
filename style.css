@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 
-.card-bodyy{
+.card-bodyy {
   text-decoration: none !important;
-  color: black !important; 
+  color: black !important;
   height: 34rem;
-  
 }
 
-.container-fluid{
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Rubik', sans-serif  ;
+.container-fluid {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .img-logo img {
   width: 4rem;
@@ -99,36 +98,18 @@ hr {
   height: 40vh;
   position: relative;
 }
-<<<<<<< HEAD
-=======
-.add-to-btn button{
+.add-to-btn button {
   height: fit-content;
 }
 
-.shoes-cart{
+.shoes-cart {
   border: 1px solid;
   height: 34rem;
   background-color: antiquewhite;
 }
-.add-to-btn button:hover{
+.add-to-btn button:hover {
   background-color: blue;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> b01d8e3 (done changes)
 
 * {
   margin: 0;
