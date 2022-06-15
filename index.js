@@ -88,3 +88,10 @@ function delData(id) {
     .then((result) => console.log(result))
     .catch((error) => console.log("error", error));
 }
+
+// const mode = sessionStorage.getItem("token");
+// if (mode) {
+//   console.log("lksdjf");
+// } else {
+//   document.getElementById("add-btn").style.display = "none";
+// }

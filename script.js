@@ -21,16 +21,15 @@ async function fetchApi() {
       redirect: "follow",
     };
 
-    location.href = "./product.html";
-
     data = fetch("https://reqres.in/api/login", requestOptions)
       .then((response) => response.text())
       .then((result) => {
         console.log(result);
         sessionStorage.setItem("token", JSON.parse(result).token);
+        location.href = "./product.html";
       })
 
-      .catch((error) => console.log("error", error));
+      .catch((error) => console.log("error while fetching", error));
     return true;
   } else {
     document.querySelector(".invalid").innerHTML =
@@ -38,6 +37,7 @@ async function fetchApi() {
   }
 }
 
-document.querySelector("#view").addEventListener("click", function () {
+const viewButton = document.querySelector("#view");
+viewButton.addEventListener("click", function () {
   location.href = "./product.html";
 });
