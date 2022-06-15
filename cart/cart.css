@@ -1,0 +1,25 @@
+.pro-img img{
+  width: 26rem;
+  height: 33rem;
+  cursor: pointer;
+}
+
+/* .product-details{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+/* 
+.add{
+  padding: 1rem 10rem;
+} */
+
+.add-favorite-btn button{
+  padding: 1rem 7rem;
+}
+
+.descriptions{
+  width: 25rem;
+}

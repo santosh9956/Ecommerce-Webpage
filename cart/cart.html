@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <title>product-details</title>
+  </head>
+  <body>
+    <div class="container-fluid p-5">
+      <header class="d-flex justify-content-between">
+        <div class="img-logo">
+          <img src="../images/Logo_NIKE.svg.png" alt="" />
+        </div>
+        <ul class="list-unstyled d-flex gap-4">
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Customise</li>
+          <li>Sale</li>
+          <li>SNKRS</li>
+        </ul>
+        <div class="input-sections d-flex gap-5">
+          <div class="input-group inp-color mb-3 rounded-5 i">
+            <span
+              class="input-group-text inp-color border-end-0 rounded-5 rounded-end"
+              id="basic-addon1"
+              ><img
+                src="./images/search-icon-png-5-removebg-preview.png"
+                class="bg-white"
+                alt=""
+            /></span>
+            <input
+              type="text"
+              class="fs-5 inp-color form-control border-start-0 rounded-5 rounded-start"
+              placeholder="search"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div class="d-flex gap-4">
+            <ion-icon class="fs-1" name="heart"></ion-icon>
+            <ion-icon class="fs-1" name="briefcase"></ion-icon>
+          </div>
+        </div>
+      </header>
+      <div class="product-details container d-flex mt-5 pt-5">
+        <div class="pro-img col-8">
+          <img
+            class="mb-1"
+            src="https://source.unsplash.com/random/900x700/?Shoes"
+            alt=""
+          />
+
+          <img
+            class="mb-1"
+            src="https://source.unsplash.com/random/900x700/?Shoes"
+            alt=""
+          />
+
+          <img src="https://source.unsplash.com/random/900x700/?Shoes" alt="" />
+
+          <img src="https://source.unsplash.com/random/900x700/?Shoes" alt="" />
+        </div>
+        <!-- <div class="pro-img col-4">
+      </div> -->
+        <div class="all-details col-4 ms-5">
+          <div class="top-detail">
+            <h4 id="p_title"></h4>
+            <p id="p_desc"></p>
+          </div>
+          <div class="product-price">
+            <p id="p_price"></p>
+            <p>incl. of taxes and duties</p>
+          </div>
+          <div class="select-size">
+            <div class="heading d-flex justify-content-between">
+              <p>Select Size</p>
+              <p>Size Guide</p>
+            </div>
+            <div class="size-btn">
+              <button class="px-4 py-2 rounded-1 border-1 mb-1">UK 1.5</button>
+              <button class="px-4 py-2 rounded-1">UK 2.5</button>
+              <button class="px-4 py-2 rounded-1">UK 3.5</button>
+              <button class="px-4 py-2 rounded-1">UK 4.5</button>
+
+              <button class="px-4 py-2 rounded-1 border-1 mb-1">UK 5.5</button>
+              <button class="px-4 py-2 rounded-1">UK 4.5</button>
+              <button class="px-4 py-2 rounded-1">UK 6.5</button>
+              <button class="px-4 py-2 rounded-1">UK 7.5</button>
+
+              <button class="px-4 py-2 rounded-1 border-1">UK 8.5</button>
+              <button class="px-4 py-2 rounded-1">UK 9.5</button>
+              <button class="px-4 py-2 rounded-1">UK 1 0</button>
+              <button class="px-4 py-2 rounded-1">UK 6.5</button>
+            </div>
+          </div>
+          <div class="add-favorite-btn">
+            <button class="bg-black text-light add fs-5 mt-3 rounded-5 ms-5">
+              Add to Bag
+            </button>
+
+            <button class="add fs-5 mt-3 rounded-5 ms-5">
+              Favorite <span><ion-icon class="" name="heart"></ion-icon></span>
+            </button>
+          </div>
+          <div class="descriptions">
+            <div class="top-desc">
+              <p class="mt-5">
+                Strap a little sunshine to your feet. Care-free colours serve
+                retro beach day vibes, while modern design lines on the midsole
+                and heel keep your look fresh. Plush foam and classic Air
+                cushioning will make your "out of office" moment feel like a
+                breeze.
+              </p>
+            </div>
+            <ul class="mt-5" onclick="">
+              <li>
+                Colour Shown: Light Orewood Brown/Sanded Gold/Light Madder
+                Root/Sail
+              </li>
+              <li>Style: DJ9986-100</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script src="cart.js"></script>
+    </div>
+  </body>
+</html>
