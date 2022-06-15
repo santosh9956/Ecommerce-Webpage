@@ -7,7 +7,7 @@ const fetchProducts = async () => {
 
   const records = AllData.data.records;
 
-  console.log(records);
+  // console.log(records);
 
   let htmlContent = cardSection.innerHTML;
 
@@ -29,10 +29,11 @@ const fetchProducts = async () => {
         <li>${d.title}</li>
         <li>${d.description}</li>
         <li>${d.active}</li>
-      </ul>
-      <p>${d.price}</p>
-    </div>
-  </div>
+        </ul>
+        <p class="fw-bold">₹ ${d.price}</p>
+        </div>
+        </div>
+     </a>
     `;
   }
   cardSection.innerHTML = htmlContent;
